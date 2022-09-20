@@ -6,7 +6,6 @@
   "scripts": {
     "test": "test",
     "cypress:open": "cypress open"
-    "cy:run": "cypress run "
   },
   "keywords": [
     "DevSecOps"
