@@ -11,10 +11,5 @@ pipeline {
                 sh "npm i"
             }
         }
-       stage('e2e Tests') {
-            steps {
-                sh 'npm run cypress:ci'
-            }
-        }
   }
 }
