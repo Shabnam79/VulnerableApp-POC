@@ -1,0 +1,18 @@
+{
+  "name": "ubuntu",
+  "version": "1.0.0",
+  "description": "DevSeOps e2e automation testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open":"cypress:open"
+  },
+  "keywords": [
+    "DevSecOps"
+  ],
+  "author": "DevSecOps",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.8.0"
+  }
+}
