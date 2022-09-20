@@ -9,7 +9,11 @@ pipeline {
        stage('Testing') {
             steps {
                 sh "npm i"
-                sh 'npm run test'
+            }
+        }
+       stage('e2e Tests') {
+            steps {
+                sh 'npm run cypress:ci'
             }
         }
   }
