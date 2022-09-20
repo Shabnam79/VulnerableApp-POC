@@ -2,7 +2,7 @@
   "name": "ubuntu",
   "version": "1.0.0",
   "description": "DevSeOps e2e automation testing",
-  "main": "index.js",
+  "main": "e2e.js",
   "scripts": {
     "test": "test",
     "cypress:open":"cypress:open"
