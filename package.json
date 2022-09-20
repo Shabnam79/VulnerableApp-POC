@@ -1,0 +1,21 @@
+
+  "name": "ubuntu",
+  "version": "1.0.0",
+  "description": "POC-Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "e2e",
+    "tests",
+    "cypress",
+    "automation",
+    "framework"
+  ],
+  "author": "DevSecOps",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.8.0"
+  }
+}
