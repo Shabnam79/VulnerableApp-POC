@@ -1,0 +1,17 @@
+{
+  "name": "ubuntu",
+  "version": "1.0.0",
+  "description": "DevSeOps e2e automation testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DevSecOps"
+  ],
+  "author": "DevSecOps",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.8.0"
+  }
+}
