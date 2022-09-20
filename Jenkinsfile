@@ -9,7 +9,7 @@ pipeline {
        stage('Testing') {
             steps {
                 sh "npm i"
-                sh "npx run cypress"
+                sh "npx cypress run --browser chrome --spec sample_spec.js"
             }
         }
   }
