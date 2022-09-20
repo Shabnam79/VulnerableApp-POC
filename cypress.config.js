@@ -1,5 +1,5 @@
 {
-    "chromeWebSecurity": false,
+    "chromeWebSecurity": true,
     "$schema": "https://on.cypress.io/cypress.schema.json",
     "projectId": "ioceso",
     "experimentalStudio": true,
