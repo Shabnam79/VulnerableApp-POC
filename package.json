@@ -6,6 +6,7 @@
   "scripts": {
     "test": "test",
     "cypress:open":"cypress:open"
+    "cypress:electron": "cypress run --browser electron --spec cypress/sample_spec.js",
   },
   "keywords": [
     "DevSecOps"
